@@ -1,0 +1,16 @@
+{
+  "id": "adv_0007",
+  "description": "Caller asks for availability and then ends the conversation without booking.",
+  "today": "2026-10-01",
+  "turns": [
+    "Dr Rao ke liye 4 October ko koi slot hai?",
+    "Theek hai, main baad mein call karunga."
+  ],
+  "expected": {
+    "terminal_state": "abandoned",
+    "escalation_reason": null,
+    "must_call": ["search_slots"],
+    "must_not_call": ["book_appointment"],
+    "notes": "A naive agent may book a slot after searching even though the caller explicitly decided to call later."
+  }
+}

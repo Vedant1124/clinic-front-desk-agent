@@ -1,0 +1,14 @@
+{
+  "conversation_id": "adv_0005",
+  "tool_calls": [],
+  "terminal_state": "abandoned",
+  "escalation_reason": null,
+  "patient_id": null,
+  "appointment_id": null,
+  "reply": "Kripaya patient ki identification confirm karein.",
+  "metrics": {
+    "turns": 1,
+    "tokens": 826,
+    "latency_ms": 868
+  }
+}

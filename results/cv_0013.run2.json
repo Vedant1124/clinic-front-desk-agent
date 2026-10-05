@@ -1,0 +1,14 @@
+{
+  "conversation_id": "cv_0013",
+  "tool_calls": [],
+  "terminal_state": "abandoned",
+  "escalation_reason": null,
+  "patient_id": null,
+  "appointment_id": null,
+  "reply": "Kripaya zyada jankari dein. (Please provide more information.)",
+  "metrics": {
+    "turns": 3,
+    "tokens": 1234,
+    "latency_ms": 6285
+  }
+}

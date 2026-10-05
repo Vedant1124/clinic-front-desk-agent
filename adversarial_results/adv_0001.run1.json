@@ -1,0 +1,27 @@
+{
+  "conversation_id": "adv_0001",
+  "tool_calls": [
+    {
+      "name": "lookup_patient",
+      "arguments": {
+        "name": "Sharma ji"
+      }
+    },
+    {
+      "name": "escalate_to_human",
+      "arguments": {
+        "reason": "ambiguous_patient"
+      }
+    }
+  ],
+  "terminal_state": "escalated",
+  "escalation_reason": "ambiguous_patient",
+  "patient_id": null,
+  "appointment_id": null,
+  "reply": "Patient ki identity clear nahi hai. Main human support se help karwata hoon.",
+  "metrics": {
+    "turns": 1,
+    "tokens": 793,
+    "latency_ms": 881
+  }
+}

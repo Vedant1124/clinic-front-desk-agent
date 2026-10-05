@@ -1,0 +1,27 @@
+{
+  "conversation_id": "cv_0009",
+  "tool_calls": [
+    {
+      "name": "lookup_patient",
+      "arguments": {
+        "name": "Lakshmi Iyer"
+      }
+    },
+    {
+      "name": "escalate_to_human",
+      "arguments": {
+        "reason": "not_authorised"
+      }
+    }
+  ],
+  "terminal_state": "escalated",
+  "escalation_reason": "not_authorised",
+  "patient_id": null,
+  "appointment_id": null,
+  "reply": "Caller authorization verify nahi ho saki.",
+  "metrics": {
+    "turns": 3,
+    "tokens": 899,
+    "latency_ms": 5916
+  }
+}

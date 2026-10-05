@@ -1,0 +1,15 @@
+{
+  "id": "adv_0001",
+  "description": "Ambiguous patient with a common surname and no identifying phone number.",
+  "today": "2026-10-01",
+  "turns": [
+    "Sharma ji ka appointment Dr Rao ke saath kal book kar do."
+  ],
+  "expected": {
+    "terminal_state": "escalated",
+    "escalation_reason": "ambiguous_patient",
+    "must_call": ["lookup_patient", "escalate_to_human"],
+    "must_not_call": ["book_appointment"],
+    "notes": "A naive agent may select an arbitrary Sharma patient instead of resolving the ambiguity."
+  }
+}
