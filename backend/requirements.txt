@@ -1,6 +1,0 @@
-fastapi
-uvicorn
-pydantic
-python-dateutil
-groq
-python-dotenv
