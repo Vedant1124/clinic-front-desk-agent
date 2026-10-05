@@ -1,6 +1,6 @@
 import React, { useEffect, useRef, useState } from "react";
 
-const API_URL = "http://localhost:8000/agent/run";
+const API_URL = "https://clinic-front-desk-agent-4.onrender.com/agent/run";
 
 function StatusBadge({ status }) {
   const value = status || "UNKNOWN";
